@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Open Sans", Arial, Sans Serif;
+  font-size: 16px; }
+
+header {
+  background: url(../img/bg.jpg), #019851;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat; }
+  header .contenedor_logo_menu {
+    padding: 25px 0;
+    border-bottom: 1px solid #97000033; }
+    header .contenedor_logo_menu .logo a {
+      display: block; }
+      header .contenedor_logo_menu .logo a img {
+        vertical-align: top;
+        border-radius: 35px; }
+    header .contenedor_logo_menu .menu {
+      text-align: right;
+      line-height: 50px; }
+      header .contenedor_logo_menu .menu a {
+        color: #fff;
+        margin-left: 60px;
+        font-size: 18px; }
+  header .textos {
+    color: #fff;
+    text-align: center;
+    padding: 200px 0; }
+    header .textos .lineas {
+      position: relative;
+      top: 170px; }
+      header .textos .lineas .primera_linea,
+      header .textos .lineas .segunda_linea {
+        font-family: "Open Sans", Arial, Sans-serif;
+        font-weight: 300; }
+      header .textos .lineas .primera_linea {
+        font-size: 35px; }
+      header .textos .lineas .segunda_linea {
+        font-size: 25px; }
+    header .textos .contenedor-botones {
+      position: relative;
+      bottom: 100px; }
+      header .textos .contenedor-botones a {
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: #e0d9eb;
+        font-weight: 600;
+        margin: 0 40px;
+        font-size: 25px;
+        padding: 30px;
+        background: rgba(55, 150, 150, 0.2); }
+        header .textos .contenedor-botones a:hover {
+          background: rgba(0, 0, 0, 0.5);
+          color: white; }
+
+.main .caracteristicas {
+  padding: 70px 0; }
+  .main .caracteristicas .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 70px; }
+  .main .caracteristicas .caracteristica {
+    text-align: center; }
+    .main .caracteristicas .caracteristica .icono {
+      vertical-align: top;
+      margin-bottom: 30px; }
+    .main .caracteristicas .caracteristica .primera_linea {
+      font-weight: 700;
+      margin-bottom: 30px;
+      font-size: 20px; }
+    .main .caracteristicas .caracteristica .parrafo {
+      margin-bottom: 30px;
+      line-height: 20px; }
+.main .fotos {
+  margin-bottom: 70px; }
+  .main .fotos .foto {
+    margin-bottom: 20px; }
+    .main .fotos .foto .thumb img {
+      border-radius: 15px;
+      width: 100%;
+      vertical-align: top; }
+    .main .fotos .foto .titulo {
+      margin-top: 70px;
+      margin-bottom: 40px;
+      font-size: 32px;
+      line-height: 32px;
+      font-weight: 300; }
+      .main .fotos .foto .titulo.azul {
+        color: #4facd3; }
+      .main .fotos .foto .titulo.naranja {
+        color: #ddb146; }
+    .main .fotos .foto .parrafo {
+      line-height: 28px; }
+    .main .fotos .foto .derecha {
+      text-align: left; }
+.main .clientes {
+  background: #2d352e;
+  padding: 40px 0; }
+  .main .clientes .titulo {
+    text-align: center;
+    font-family: "Open Sans" Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 40px; }
+  .main .clientes .cliente {
+    text-align: center; }
+    .main .clientes .cliente a {
+      display: inline-block;
+      padding: 15px 80px; }
+.main .precios {
+  background: url("../img/precios-bg.jpg"), #727171;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  padding: 70px 0; }
+  .main .precios .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 70px; }
+  .main .precios .plan {
+    background: white;
+    text-align: center;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    padding: 50px 0;
+    box-shadow: 0 0 15 0 rgba(0, 0, 0, 0.35); }
+    .main .precios .plan .nombre {
+      font-size: 32px;
+      line-height: 32px;
+      font-weight: 300;
+      margin-bottom: 30px; }
+    .main .precios .plan .precio {
+      font-weight: 300;
+      margin-bottom: 30px;
+      font-size: 48px; }
+    .main .precios .plan .caracteristicas {
+      list-style: none;
+      padding: 0 20px;
+      margin-bottom: 50px; }
+      .main .precios .plan .caracteristicas li {
+        font-size: 18px;
+        padding: 15px 0;
+        border-bottom: 1px solid #dedede; }
+      .main .precios .plan .caracteristicas .btn {
+        width: 70%;
+        padding: 70px 0;
+        text-align: center;
+        display: inline-block;
+        border-radius: 100px; }
+  .main .precios .verde .nombre,
+  .main .precios .verde .precio {
+    color: #86b733; }
+  .main .precios .verde .btn {
+    color: #86b733;
+    border: 2px solid #86b733; }
+    .main .precios .verde .btn:hover {
+      color: white;
+      background: #86b733; }
+  .main .precios .active {
+    background: #4c8dce;
+    color: white; }
+    .main .precios .active .btn {
+      color: white;
+      border: 2px solid #f2f5f8; }
+      .main .precios .active .btn:hover {
+        color: #547bb6;
+        background: white; }
+  .main .precios .naranja .nombre,
+  .main .precios .naranja .precio {
+    color: #ddb146; }
+  .main .precios .naranja .btn {
+    color: #ddb146;
+    border: 2px solid #ddb146; }
+    .main .precios .naranja .btn:hover {
+      color: white;
+      background: #ddb146; }
+.main .reviews {
+  padding: 70px; }
+  .main .reviews .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #4facd4;
+    margin-bottom: 30px; }
+  .main .reviews .cliente {
+    margin-bottom: 20px; }
+    .main .reviews .cliente .foto {
+      width: 20%;
+      float: left;
+      text-align: right; }
+      .main .reviews .cliente .foto img {
+        max-width: 100px;
+        width: 100%;
+        vertical-align: top;
+        border-radius: 100%; }
+    .main .reviews .cliente .review {
+      float: left;
+      width: 80%;
+      padding: 0 30px;
+      margin-top: 20px; }
+      .main .reviews .cliente .review .texto {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 10px; }
+      .main .reviews .cliente .review .nombre {
+        color: #ddb146;
+        font-size: 14px; }
+
+.footer .direccion {
+  background: #3c4045;
+  padding: 30px 0;
+  color: white; }
+  .footer .direccion .logo img {
+    margin-top: 70px;
+    border-radius: 35px; }
+  .footer .direccion .titulo {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 30px; }
+  .footer .direccion .calle,
+  .footer .direccion .correo {
+    margin-bottom: 10px; }
+.footer .social {
+  text-align: center;
+  padding: 20px 0; }
+  .footer .social i {
+    padding: 10px;
+    display: inline-block;
+    margin: 0 20px;
+    width: 50px;
+    font-size: 22px;
+    color: white;
+    background: #000000;
+    border-radius: 100px; }
+    .footer .social i:hover {
+      text-decoration: none; }
+    .footer .social i.fa-instagram {
+      background: #cd201f; }
+    .footer .social i.fa-twitter {
+      background: #55acee; }
+    .footer .social i.fa-facebook-official {
+      background: #3b5998; }
+
+@media screen and (max-width: 992px) {
+  header .contenedor_logo_menu .logo {
+    margin-bottom: 20px;
+    text-align: center; }
+  header .contenedor_logo_menu .menu {
+    text-align: center; }
+    header .contenedor_logo_menu .menu a {
+      margin: 0 20px; }
+  header .textos {
+    margin: 50px 0;
+    font-size: 16px; }
+    header .textos .primera_linea {
+      font-size: 1.5em; }
+    header .textos .segunda_linea {
+      font-size: 1.3em; }
+    header .textos .contenedor-botones {
+      margin-bottom: 100px; }
+    header .textos .lineas {
+      top: -50px;
+      line-height: 20; }
+      header .textos .lineas .primera_linea {
+        font-size: 28px;
+        line-height: 30px; }
+      header .textos .lineas .segunda_linea {
+        font-size: 24px;
+        line-height: 30px; }
+
+  .main .fotos .foto .titulo {
+    margin-top: 0; }
+  .main .clientes .cliente {
+    margin-bottom: 40px; }
+
+  footer .direccion .logo {
+    display: block; } }
+@media screen and (max-width: 768px) {
+  header .textos {
+    color: #fff;
+    text-align: center;
+    padding: 40px 0; }
+    header .textos .primera_linea {
+      font-size: 25px;
+      line-height: 25px;
+      margin-bottom: 20px; }
+    header .textos .segunda_linea {
+      font-size: 15px;
+      line-height: 15px;
+      margin-bottom: 10px; }
+    header .textos .contenedor-botones a {
+      font-size: 20px;
+      display: block;
+      margin: 25px; }
+
+  .main .caracteristicas {
+    padding: 10px 0; }
+    .main .caracteristicas .caracteristica {
+      margin-bottom: 20px; }
+  .main .fotos {
+    margin-bottom: 70px; }
+    .main .fotos .foto {
+      margin-bottom: 20px; }
+      .main .fotos .foto .thumb img {
+        border-radius: 15px;
+        width: 100%;
+        vertical-align: top; }
+      .main .fotos .foto .titulo {
+        margin-top: 70px;
+        margin-bottom: 40px;
+        font-size: 20px;
+        line-height: 30px; }
+        .main .fotos .foto .titulo.azul {
+          color: #4facd3; }
+        .main .fotos .foto .titulo.naranja {
+          color: #ddb146; }
+      .main .fotos .foto .parrafo {
+        line-height: 18px; }
+      .main .fotos .foto .derecha {
+        text-align: left; }
+  .main .precios .precio {
+    margin-bottom: 10px; }
+  .main .reviews {
+    padding: 20px; }
+    .main .reviews .titulo {
+      text-align: center;
+      font-family: "Open Sans", Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      font-size: 32px;
+      color: #4facd4;
+      margin-bottom: 30px; }
+    .main .reviews .cliente .review .texto {
+      font-size: 16px;
+      line-height: 18px;
+      margin-bottom: 10px; }
+    .main .reviews .cliente .review .nombre {
+      font-size: 10px; }
+
+  .footer .direccion {
+    text-align: center; } }
+
+/*# sourceMappingURL=estilos.css.map */
